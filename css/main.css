@@ -2081,6 +2081,7 @@ article > .container, article:last-child {
 .image img {
     display: block;
     width: 100%;
+    border-radius: 8px;
 }
 
 .image.avatar48 {
@@ -2097,6 +2098,7 @@ article > .container, article:last-child {
 .image.fit {
     display: block;
     width: 100%;
+
 }
 .image img:hover {
     -webkit-transform: scale(1.5); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
