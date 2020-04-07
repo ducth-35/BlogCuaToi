@@ -2098,7 +2098,15 @@ article > .container, article:last-child {
     display: block;
     width: 100%;
 }
-
+.image img:hover {
+    -webkit-transform: scale(1.5); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    box-shadow: 0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+    -webkit-box-shadow: 0px 0px 30px gray;
+    -moz-box-shadow: 0px 0px 30px gray;
+    opacity: 1; /*Độ mờ của hình ảnh*/
+}
 .image.featured {
     display: block;
     width: 100%;
